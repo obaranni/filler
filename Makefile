@@ -6,11 +6,11 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/07/31 12:18:36 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/01 19:44:39 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = obaranni.filler 
+NAME = RT
 
 SRC_DIR = ./src/
 
@@ -22,7 +22,7 @@ LIB_DIR = ./libft/
 
 LIBFT = $(LIB_DIR)libft.a
 
-SRC = $(shell ls src)
+SRC = $(shell cd src ; find . ; cd ..)
 
 OBJ = $(SRC:.c=.o)
 
@@ -30,9 +30,9 @@ SRC_FILES =	$(addprefix $(SRC_DIR),$(SRC))
 
 OBJ_FILES =	$(addprefix $(OBJ_DIR),$(OBJ))
 
-COMPALING_FLAGS = -I$(INC_DIR) -I$(LIB_DIR) `pkg-config --cflags gtk+-3.0`
+COMPALING_FLAGS = -I$(INC_DIR) -I$(LIB_DIR)# `pkg-config --cflags gtk+-3.0`
 
-LINKING_FLAGS = -framework opengl -framework appkit -lft -L$(LIB_DIR) # `pkg-config --libs --cflags gtk+-3.0`
+LINKING_FLAGS = -framework opengl -framework appkit -lft -L$(LIB_DIR)# `pkg-config --libs --cflags gtk+-3.0`
 
 CC = gcc
 

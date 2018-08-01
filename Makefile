@@ -6,7 +6,7 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/08/01 19:44:39 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/01 19:56:21 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,8 @@ NAME = RT
 SRC_DIR = ./src/
 
 OBJ_DIR = ./obj/
+
+OBJ_DIRS = $(addprefix $(OBJ_DIR)$(shell cd src ; find . -maxdepth 25 -type d | grep ./ ; cd ..))
 
 INC_DIR = ./headers/
 
@@ -39,7 +41,7 @@ CC = gcc
 all: $(NAME)
 
 $(NAME): $(OBJ_FILES) $(LIBFT)
-	$(CC) $(LINKING_FLAGS) $(OBJ_FILES) -o $(NAME)
+#	$(CC) $(LINKING_FLAGS) $(OBJ_FILES) -o $(NAME)
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
 	$(CC) $(COMPALING_FLAGS) -o $@ -c $<
@@ -48,6 +50,7 @@ $(OBJ_FILES): | $(OBJ_DIR)
 
 $(OBJ_DIR):
 	mkdir $(OBJ_DIR)
+	mkdir $(OBJ_DIRS)
 
 $(LIBFT):
 	make -C $(LIB_DIR)

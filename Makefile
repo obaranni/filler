@@ -6,17 +6,15 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/08/01 19:56:21 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/02 16:51:35 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = RT
+NAME = obaranni.filler 
 
 SRC_DIR = ./src/
 
 OBJ_DIR = ./obj/
-
-OBJ_DIRS = $(addprefix $(OBJ_DIR)$(shell cd src ; find . -maxdepth 25 -type d | grep ./ ; cd ..))
 
 INC_DIR = ./headers/
 
@@ -24,7 +22,12 @@ LIB_DIR = ./libft/
 
 LIBFT = $(LIB_DIR)libft.a
 
-SRC = $(shell cd src ; find . ; cd ..)
+SRC =		filler_main.c				\
+			reader/reader.c				\
+			validator/validator.c		\
+			analizer/analizer.c			\
+			responder/responder.c		\
+			visualizer/visualizer.c		\
 
 OBJ = $(SRC:.c=.o)
 
@@ -41,7 +44,7 @@ CC = gcc
 all: $(NAME)
 
 $(NAME): $(OBJ_FILES) $(LIBFT)
-#	$(CC) $(LINKING_FLAGS) $(OBJ_FILES) -o $(NAME)
+	$(CC) $(LINKING_FLAGS) $(OBJ_FILES) -o $(NAME)
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
 	$(CC) $(COMPALING_FLAGS) -o $@ -c $<
@@ -49,8 +52,12 @@ $(OBJ_DIR)%.o: $(SRC_DIR)%.c
 $(OBJ_FILES): | $(OBJ_DIR)
 
 $(OBJ_DIR):
-	mkdir $(OBJ_DIR)
-	mkdir $(OBJ_DIRS)
+	mkdir obj
+	mkdir obj/reader
+	mkdir obj/validator
+	mkdir obj/visualizer
+	mkdir obj/analizer
+	mkdir obj/responder
 
 $(LIBFT):
 	make -C $(LIB_DIR)

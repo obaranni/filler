@@ -196,6 +196,18 @@ CMakeFiles/filler.dir/src/filler_main.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/src/filler_main.c
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/parser/parse_figure.c
+CMakeFiles/filler.dir/src/parser/parse_map.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/parser/parse_map.c
+CMakeFiles/filler.dir/src/parser/parser.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/parser/parser.c
 CMakeFiles/filler.dir/src/reader/reader.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h

@@ -281,6 +281,15 @@
 		<Unit filename="/Users/obaranni/projects/filler/src/filler_main.c">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/parser/parse_figure.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/parser/parse_map.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/parser/parser.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/reader/reader.c">
 			<Option target="filler"/>
 		</Unit>

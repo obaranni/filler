@@ -14,9 +14,9 @@ void 			cords_free(t_cord *cord)
 
 void			send_respond(t_cord *cord)
 {
-	write(1, &(cord->x_str), ft_strlen(cord->x_str));
+	write(1, cord->x_str, ft_strlen(cord->x_str));
 	write(1, " ", 1);
-	write(1, &(cord->y_str), ft_strlen(cord->y_str));
+	write(1, cord->y_str, ft_strlen(cord->y_str));
 	write(1, "\n", 1);
 }
 

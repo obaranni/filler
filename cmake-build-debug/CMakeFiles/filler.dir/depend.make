@@ -196,6 +196,18 @@ CMakeFiles/filler.dir/src/filler_main.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../src/filler_main.c
 
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../src/parser/parse_figure.c
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/parser/parse_map.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/parser/parse_map.c.o: ../src/parser/parse_map.c
+
+CMakeFiles/filler.dir/src/parser/parser.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/parser/parser.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/parser/parser.c.o: ../src/parser/parser.c
+
 CMakeFiles/filler.dir/src/reader/reader.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/reader/reader.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/reader/reader.c.o: ../src/reader/reader.c

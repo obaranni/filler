@@ -1,11 +1,34 @@
 #include "../inc/filler.h"
 
+void 			free_input(t_filler *f)
+{
+	int 		i;
+
+	i = 0;
+	while (f->input[i])
+	{
+		free(f->input[i]);
+		i++;
+	}
+	free(f->input);
+	i = 0;
+//	while (f->game->map)
+}
+
 void            game(t_filler *f)
 {
-    while (reader(f))
+	int 		i;
+
+	i = 0;
+	while (reader(f) && !i) /// && !i lishnee
     {
-        if (validator(f))
-            break ;
+		if (validator(f))
+		{
+			free_input(f);
+			break;
+		}
+
+		parser(f, i);
         analizer(f);
 
 		f->step_cord.x = 0;
@@ -16,6 +39,8 @@ void            game(t_filler *f)
 
         if (f->graph_mode)
             visualizer(f);
+		free_input(f);
+		i++;
     }
 }
 

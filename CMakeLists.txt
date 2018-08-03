@@ -71,7 +71,7 @@ add_executable(filler
         src/filler_main.c
         inc/filler.h
         src/reader/reader.c
-        src/validator/validator.c src/analizer/analizer.c src/responder/responder.c src/visualizer/visualizer.c)
+        src/validator/validator.c src/analizer/analizer.c src/responder/responder.c src/visualizer/visualizer.c src/parser/parser.c src/parser/parse_map.c src/parser/parse_figure.c)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -framework OpenGL -framework AppKit" )
 

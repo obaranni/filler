@@ -6,7 +6,7 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/08/02 16:51:35 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/03 12:24:07 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,7 @@ SRC =		filler_main.c				\
 			analizer/analizer.c			\
 			responder/responder.c		\
 			visualizer/visualizer.c		\
+			parser/parser.c				\
 
 OBJ = $(SRC:.c=.o)
 
@@ -58,6 +59,7 @@ $(OBJ_DIR):
 	mkdir obj/visualizer
 	mkdir obj/analizer
 	mkdir obj/responder
+	mkdir obj/parser
 
 $(LIBFT):
 	make -C $(LIB_DIR)

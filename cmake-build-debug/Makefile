@@ -1878,6 +1878,87 @@ src/filler_main.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/filler_main.c.s
 .PHONY : src/filler_main.c.s
 
+src/parser/parse_figure.o: src/parser/parse_figure.c.o
+
+.PHONY : src/parser/parse_figure.o
+
+# target to build an object file
+src/parser/parse_figure.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_figure.c.o
+.PHONY : src/parser/parse_figure.c.o
+
+src/parser/parse_figure.i: src/parser/parse_figure.c.i
+
+.PHONY : src/parser/parse_figure.i
+
+# target to preprocess a source file
+src/parser/parse_figure.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_figure.c.i
+.PHONY : src/parser/parse_figure.c.i
+
+src/parser/parse_figure.s: src/parser/parse_figure.c.s
+
+.PHONY : src/parser/parse_figure.s
+
+# target to generate assembly for a file
+src/parser/parse_figure.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_figure.c.s
+.PHONY : src/parser/parse_figure.c.s
+
+src/parser/parse_map.o: src/parser/parse_map.c.o
+
+.PHONY : src/parser/parse_map.o
+
+# target to build an object file
+src/parser/parse_map.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_map.c.o
+.PHONY : src/parser/parse_map.c.o
+
+src/parser/parse_map.i: src/parser/parse_map.c.i
+
+.PHONY : src/parser/parse_map.i
+
+# target to preprocess a source file
+src/parser/parse_map.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_map.c.i
+.PHONY : src/parser/parse_map.c.i
+
+src/parser/parse_map.s: src/parser/parse_map.c.s
+
+.PHONY : src/parser/parse_map.s
+
+# target to generate assembly for a file
+src/parser/parse_map.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_map.c.s
+.PHONY : src/parser/parse_map.c.s
+
+src/parser/parser.o: src/parser/parser.c.o
+
+.PHONY : src/parser/parser.o
+
+# target to build an object file
+src/parser/parser.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parser.c.o
+.PHONY : src/parser/parser.c.o
+
+src/parser/parser.i: src/parser/parser.c.i
+
+.PHONY : src/parser/parser.i
+
+# target to preprocess a source file
+src/parser/parser.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parser.c.i
+.PHONY : src/parser/parser.c.i
+
+src/parser/parser.s: src/parser/parser.c.s
+
+.PHONY : src/parser/parser.s
+
+# target to generate assembly for a file
+src/parser/parser.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parser.c.s
+.PHONY : src/parser/parser.c.s
+
 src/reader/reader.o: src/reader/reader.c.o
 
 .PHONY : src/reader/reader.o
@@ -2190,6 +2271,15 @@ help:
 	@echo "... src/filler_main.o"
 	@echo "... src/filler_main.i"
 	@echo "... src/filler_main.s"
+	@echo "... src/parser/parse_figure.o"
+	@echo "... src/parser/parse_figure.i"
+	@echo "... src/parser/parse_figure.s"
+	@echo "... src/parser/parse_map.o"
+	@echo "... src/parser/parse_map.i"
+	@echo "... src/parser/parse_map.s"
+	@echo "... src/parser/parser.o"
+	@echo "... src/parser/parser.i"
+	@echo "... src/parser/parser.s"
 	@echo "... src/reader/reader.o"
 	@echo "... src/reader/reader.i"
 	@echo "... src/reader/reader.s"

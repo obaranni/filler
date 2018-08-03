@@ -1713,6 +1713,78 @@ CMakeFiles/filler.dir/src/visualizer/visualizer.c.o.provides: CMakeFiles/filler.
 CMakeFiles/filler.dir/src/visualizer/visualizer.c.o.provides.build: CMakeFiles/filler.dir/src/visualizer/visualizer.c.o
 
 
+CMakeFiles/filler.dir/src/parser/parser.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/src/parser/parser.c.o: ../src/parser/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/filler.dir/src/parser/parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/src/parser/parser.c.o   -c /Users/obaranni/projects/filler/src/parser/parser.c
+
+CMakeFiles/filler.dir/src/parser/parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/src/parser/parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/obaranni/projects/filler/src/parser/parser.c > CMakeFiles/filler.dir/src/parser/parser.c.i
+
+CMakeFiles/filler.dir/src/parser/parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/src/parser/parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/obaranni/projects/filler/src/parser/parser.c -o CMakeFiles/filler.dir/src/parser/parser.c.s
+
+CMakeFiles/filler.dir/src/parser/parser.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/src/parser/parser.c.o.requires
+
+CMakeFiles/filler.dir/src/parser/parser.c.o.provides: CMakeFiles/filler.dir/src/parser/parser.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parser.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/src/parser/parser.c.o.provides
+
+CMakeFiles/filler.dir/src/parser/parser.c.o.provides.build: CMakeFiles/filler.dir/src/parser/parser.c.o
+
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/src/parser/parse_map.c.o: ../src/parser/parse_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/filler.dir/src/parser/parse_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/src/parser/parse_map.c.o   -c /Users/obaranni/projects/filler/src/parser/parse_map.c
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/src/parser/parse_map.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/obaranni/projects/filler/src/parser/parse_map.c > CMakeFiles/filler.dir/src/parser/parse_map.c.i
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/src/parser/parse_map.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/obaranni/projects/filler/src/parser/parse_map.c -o CMakeFiles/filler.dir/src/parser/parse_map.c.s
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/src/parser/parse_map.c.o.requires
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.o.provides: CMakeFiles/filler.dir/src/parser/parse_map.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_map.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/src/parser/parse_map.c.o.provides
+
+CMakeFiles/filler.dir/src/parser/parse_map.c.o.provides.build: CMakeFiles/filler.dir/src/parser/parse_map.c.o
+
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../src/parser/parse_figure.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/filler.dir/src/parser/parse_figure.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/src/parser/parse_figure.c.o   -c /Users/obaranni/projects/filler/src/parser/parse_figure.c
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/src/parser/parse_figure.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/obaranni/projects/filler/src/parser/parse_figure.c > CMakeFiles/filler.dir/src/parser/parse_figure.c.i
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/src/parser/parse_figure.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/obaranni/projects/filler/src/parser/parse_figure.c -o CMakeFiles/filler.dir/src/parser/parse_figure.c.s
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/src/parser/parse_figure.c.o.requires
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o.provides: CMakeFiles/filler.dir/src/parser/parse_figure.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/parse_figure.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/src/parser/parse_figure.c.o.provides
+
+CMakeFiles/filler.dir/src/parser/parse_figure.c.o.provides.build: CMakeFiles/filler.dir/src/parser/parse_figure.c.o
+
+
 # Object files for target filler
 filler_OBJECTS = \
 "CMakeFiles/filler.dir/libft/src/ft_absolute_val.c.o" \
@@ -1783,7 +1855,10 @@ filler_OBJECTS = \
 "CMakeFiles/filler.dir/src/validator/validator.c.o" \
 "CMakeFiles/filler.dir/src/analizer/analizer.c.o" \
 "CMakeFiles/filler.dir/src/responder/responder.c.o" \
-"CMakeFiles/filler.dir/src/visualizer/visualizer.c.o"
+"CMakeFiles/filler.dir/src/visualizer/visualizer.c.o" \
+"CMakeFiles/filler.dir/src/parser/parser.c.o" \
+"CMakeFiles/filler.dir/src/parser/parse_map.c.o" \
+"CMakeFiles/filler.dir/src/parser/parse_figure.c.o"
 
 # External object files for target filler
 filler_EXTERNAL_OBJECTS =
@@ -1857,10 +1932,13 @@ filler: CMakeFiles/filler.dir/src/validator/validator.c.o
 filler: CMakeFiles/filler.dir/src/analizer/analizer.c.o
 filler: CMakeFiles/filler.dir/src/responder/responder.c.o
 filler: CMakeFiles/filler.dir/src/visualizer/visualizer.c.o
+filler: CMakeFiles/filler.dir/src/parser/parser.c.o
+filler: CMakeFiles/filler.dir/src/parser/parse_map.c.o
+filler: CMakeFiles/filler.dir/src/parser/parse_figure.c.o
 filler: CMakeFiles/filler.dir/build.make
 filler: ../libft/libft.a
 filler: CMakeFiles/filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking C executable filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1937,6 +2015,9 @@ CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/validator/validator.c.
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/analizer/analizer.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/responder/responder.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/visualizer/visualizer.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parser.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parse_map.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parse_figure.c.o.requires
 
 .PHONY : CMakeFiles/filler.dir/requires
 

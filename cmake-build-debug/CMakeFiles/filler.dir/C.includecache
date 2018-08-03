@@ -278,9 +278,25 @@ string.h
 ../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
 
+/Users/obaranni/projects/filler/src/parser/parse_figure.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
+/Users/obaranni/projects/filler/src/parser/parse_map.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
+/Users/obaranni/projects/filler/src/parser/parser.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
 /Users/obaranni/projects/filler/src/reader/reader.c
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
+unistd.h
+-
+fcntl.h
+-
 
 /Users/obaranni/projects/filler/src/responder/responder.c
 ../../inc/filler.h

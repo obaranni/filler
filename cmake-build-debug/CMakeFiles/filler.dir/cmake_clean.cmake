@@ -68,6 +68,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/src/analizer/analizer.c.o"
   "CMakeFiles/filler.dir/src/responder/responder.c.o"
   "CMakeFiles/filler.dir/src/visualizer/visualizer.c.o"
+  "CMakeFiles/filler.dir/src/parser/parser.c.o"
+  "CMakeFiles/filler.dir/src/parser/parse_map.c.o"
+  "CMakeFiles/filler.dir/src/parser/parse_figure.c.o"
   "filler.pdb"
   "filler"
 )

@@ -1,5 +1,7 @@
 #include "../../inc/filler.h"
 
+#include <unistd.h>
+#include <fcntl.h>
 int                 reader(t_filler *f)
 {
     char            *buf;
@@ -8,8 +10,10 @@ int                 reader(t_filler *f)
 
     i = 0;
 	f->input = 0;
+	MAP = 0;
 	f->input = (char **)malloc(sizeof(char*) * 500);
-    while (get_next_line(0, &buf))
+	int filedesc = open("../vm.txt", O_RDONLY);
+    while (get_next_line(filedesc, &buf))
     {
         len = (int)ft_strlen(buf);
 		(f->input[i]) = (char*)malloc(sizeof(char) * len);
@@ -17,6 +21,8 @@ int                 reader(t_filler *f)
         free(buf);
         i++;
     }
+    f->input[i] = 0;
+	close(filedesc);
     if (i)
         return (1);
     else

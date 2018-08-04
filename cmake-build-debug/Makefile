@@ -1824,6 +1824,33 @@ libft/src/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/libft/src/ft_toupper.c.s
 .PHONY : libft/src/ft_toupper.c.s
 
+libft/src/get_next_line.o: libft/src/get_next_line.c.o
+
+.PHONY : libft/src/get_next_line.o
+
+# target to build an object file
+libft/src/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/libft/src/get_next_line.c.o
+.PHONY : libft/src/get_next_line.c.o
+
+libft/src/get_next_line.i: libft/src/get_next_line.c.i
+
+.PHONY : libft/src/get_next_line.i
+
+# target to preprocess a source file
+libft/src/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/libft/src/get_next_line.c.i
+.PHONY : libft/src/get_next_line.c.i
+
+libft/src/get_next_line.s: libft/src/get_next_line.c.s
+
+.PHONY : libft/src/get_next_line.s
+
+# target to generate assembly for a file
+libft/src/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/libft/src/get_next_line.c.s
+.PHONY : libft/src/get_next_line.c.s
+
 src/analizer/analizer.o: src/analizer/analizer.c.o
 
 .PHONY : src/analizer/analizer.o
@@ -1850,6 +1877,33 @@ src/analizer/analizer.s: src/analizer/analizer.c.s
 src/analizer/analizer.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/analizer.c.s
 .PHONY : src/analizer/analizer.c.s
+
+src/analizer/set_priorities.o: src/analizer/set_priorities.c.o
+
+.PHONY : src/analizer/set_priorities.o
+
+# target to build an object file
+src/analizer/set_priorities.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/set_priorities.c.o
+.PHONY : src/analizer/set_priorities.c.o
+
+src/analizer/set_priorities.i: src/analizer/set_priorities.c.i
+
+.PHONY : src/analizer/set_priorities.i
+
+# target to preprocess a source file
+src/analizer/set_priorities.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/set_priorities.c.i
+.PHONY : src/analizer/set_priorities.c.i
+
+src/analizer/set_priorities.s: src/analizer/set_priorities.c.s
+
+.PHONY : src/analizer/set_priorities.s
+
+# target to generate assembly for a file
+src/analizer/set_priorities.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/set_priorities.c.s
+.PHONY : src/analizer/set_priorities.c.s
 
 src/filler_main.o: src/filler_main.c.o
 
@@ -2265,9 +2319,15 @@ help:
 	@echo "... libft/src/ft_toupper.o"
 	@echo "... libft/src/ft_toupper.i"
 	@echo "... libft/src/ft_toupper.s"
+	@echo "... libft/src/get_next_line.o"
+	@echo "... libft/src/get_next_line.i"
+	@echo "... libft/src/get_next_line.s"
 	@echo "... src/analizer/analizer.o"
 	@echo "... src/analizer/analizer.i"
 	@echo "... src/analizer/analizer.s"
+	@echo "... src/analizer/set_priorities.o"
+	@echo "... src/analizer/set_priorities.i"
+	@echo "... src/analizer/set_priorities.s"
 	@echo "... src/filler_main.o"
 	@echo "... src/filler_main.i"
 	@echo "... src/filler_main.s"

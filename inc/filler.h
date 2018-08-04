@@ -46,13 +46,19 @@ typedef struct          s_filler
 	t_game				game;
 }                       t_filler;
 int                     get_next_line(const int fd, char **line);
+
 void					find_map(t_filler *f, int *i);
 void					find_figure(t_filler *f, int *i);
-
 int						parser(t_filler *f, int i);
+
 int						visualizer(t_filler *f);
+
 int						responder(t_filler *f);
+
+void					set_priorities(t_filler *f);
 int                     analizer(t_filler *f);
+
 int						validator(t_filler *f);
+
 int                     reader(t_filler *f);
 #endif //FILLER_FILLER_H

@@ -64,6 +64,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/libft/src/ft_toupper.c.o"
   "CMakeFiles/filler.dir/src/filler_main.c.o"
   "CMakeFiles/filler.dir/src/reader/reader.c.o"
+  "CMakeFiles/filler.dir/libft/src/get_next_line.c.o"
   "CMakeFiles/filler.dir/src/validator/validator.c.o"
   "CMakeFiles/filler.dir/src/analizer/analizer.c.o"
   "CMakeFiles/filler.dir/src/responder/responder.c.o"
@@ -71,6 +72,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/src/parser/parser.c.o"
   "CMakeFiles/filler.dir/src/parser/parse_map.c.o"
   "CMakeFiles/filler.dir/src/parser/parse_figure.c.o"
+  "CMakeFiles/filler.dir/src/analizer/set_priorities.c.o"
   "filler.pdb"
   "filler"
 )

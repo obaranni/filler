@@ -6,10 +6,11 @@
 /*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/20 08:33:50 by obaranni          #+#    #+#             */
-/*   Updated: 2018/08/02 15:42:11 by obaranni         ###   ########.fr       */
+/*   Updated: 2018/08/04 19:38:59 by obaranni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../inc/libft.h"
 #include "../inc/get_next_line.h"
 #include <stdlib.h>
 #include <unistd.h>

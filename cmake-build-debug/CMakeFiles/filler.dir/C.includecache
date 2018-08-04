@@ -12,6 +12,8 @@
 stdio.h
 -
 
+/Users/obaranni/projects/filler/libft/inc/get_next_line.h
+
 /Users/obaranni/projects/filler/libft/inc/libft.h
 stdlib.h
 -
@@ -270,7 +272,21 @@ string.h
 ../inc/libft.h
 /Users/obaranni/projects/filler/libft/inc/libft.h
 
+/Users/obaranni/projects/filler/libft/src/get_next_line.c
+../inc/libft.h
+/Users/obaranni/projects/filler/libft/inc/libft.h
+../inc/get_next_line.h
+/Users/obaranni/projects/filler/libft/inc/get_next_line.h
+stdlib.h
+-
+unistd.h
+-
+
 /Users/obaranni/projects/filler/src/analizer/analizer.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
+/Users/obaranni/projects/filler/src/analizer/set_priorities.c
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
 

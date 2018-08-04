@@ -188,9 +188,17 @@ CMakeFiles/filler.dir/libft/src/ft_tolower.c.o: ../libft/src/ft_tolower.c
 CMakeFiles/filler.dir/libft/src/ft_toupper.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/libft/src/ft_toupper.c.o: ../libft/src/ft_toupper.c
 
+CMakeFiles/filler.dir/libft/src/get_next_line.c.o: ../libft/inc/get_next_line.h
+CMakeFiles/filler.dir/libft/src/get_next_line.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/libft/src/get_next_line.c.o: ../libft/src/get_next_line.c
+
 CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../src/analizer/analizer.c
+
+CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../src/analizer/set_priorities.c
 
 CMakeFiles/filler.dir/src/filler_main.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../libft/inc/libft.h

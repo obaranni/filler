@@ -29,6 +29,9 @@ SRC =		filler_main.c				\
 			responder/responder.c		\
 			visualizer/visualizer.c		\
 			parser/parser.c				\
+			parser/parse_figure.c    	\
+			parser/parse_map.c			\
+			analizer/set_priorities.c   \
 
 OBJ = $(SRC:.c=.o)
 

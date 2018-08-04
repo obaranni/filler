@@ -18,7 +18,7 @@ int                 reader(t_filler *f)
         len = (int)ft_strlen(buf);
 		(f->input[i]) = (char*)malloc(sizeof(char) * len);
         ft_strcpy((f->input[i]), buf);
-        free(buf);
+		free(buf);
         i++;
     }
     f->input[i] = 0;

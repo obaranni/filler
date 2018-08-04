@@ -275,7 +275,13 @@
 		<Unit filename="/Users/obaranni/projects/filler/libft/src/ft_toupper.c">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/libft/src/get_next_line.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/analizer/analizer.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/analizer/set_priorities.c">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/filler_main.c">

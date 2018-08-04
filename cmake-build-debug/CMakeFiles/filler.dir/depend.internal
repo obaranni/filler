@@ -188,10 +188,18 @@ CMakeFiles/filler.dir/libft/src/ft_tolower.c.o
 CMakeFiles/filler.dir/libft/src/ft_toupper.c.o
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/libft/src/ft_toupper.c
+CMakeFiles/filler.dir/libft/src/get_next_line.c.o
+ /Users/obaranni/projects/filler/libft/inc/get_next_line.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/libft/src/get_next_line.c
 CMakeFiles/filler.dir/src/analizer/analizer.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/src/analizer/analizer.c
+CMakeFiles/filler.dir/src/analizer/set_priorities.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/analizer/set_priorities.c
 CMakeFiles/filler.dir/src/filler_main.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h

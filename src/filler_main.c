@@ -11,8 +11,27 @@ void 			free_input(t_filler *f)
 		i++;
 	}
 	free(f->input);
+}
+
+void			free_map(t_filler *f)
+{
+	int 		i;
+
 	i = 0;
-//	while (f->game->map)
+	while (i < MAP_Y)
+	{
+		free(MAP[i]);
+		i++;
+	}
+	free(MAP);
+
+	i = 0;
+	while (i < FIG_Y)
+	{
+		free(FIG[i]);
+		i++;
+	}
+	free(FIG);
 }
 
 void            game(t_filler *f)
@@ -40,6 +59,7 @@ void            game(t_filler *f)
         if (f->graph_mode)
             visualizer(f);
 		free_input(f);
+		free_map(f);
 		i++;
     }
 }
@@ -53,4 +73,5 @@ int             main(int argc, char **argv)
     else
         f.graph_mode = 0;
     game(&f);
+	while (1);
 }

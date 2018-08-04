@@ -33,15 +33,6 @@ int 			parser(t_filler *f, int i)
 	i = 0;
 	find_map(f, &i);
 	find_figure(f, &i);
-	i = 0;
-	while (i < MAP_Y) {
-		printf("%s\n", MAP[i]);
-		i++;
-	}
-	i = 0;
-	while (i < FIG_Y) {
-		printf("%s\n", FIG[i]);
-		i++;
-	}
+
 	return (0);
 }

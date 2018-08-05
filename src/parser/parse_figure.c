@@ -7,17 +7,17 @@ void			parse_figure(t_filler *f, int i)
 	int			k;
 
 	k = 0;
-	while (k < FIG_Y)
+	while (k < FIGF_Y)
 	{
 		j = 0;
 		t = 0;
-		while (ft_strchr(FIGCHARS, f->input[i][j]) && t < FIG_X)
+		while (ft_strchr(FIGCHARS, f->input[i][j]) && t < FIGF_X)
 		{
-			FIG[k][t] = f->input[i][j];
+			FIGF_F[k][t] = f->input[i][j];
 			j++;
 			t++;
 		}
-		FIG[k][t] = 0;
+		FIGF_F[k][t] = 0;
 		k++;
 		i++;
 	}
@@ -33,10 +33,10 @@ void			find_figure(t_filler *f, int *i)
 		if (ft_strstr(f->input[*i], "Piece"))
 		{
 			(*i) += 1;
-			FIG = (char **)malloc(sizeof(char*) * FIG_Y);
-			while (j < FIG_Y)
+			FIGF_F = (char **)malloc(sizeof(char*) * FIGF_Y);
+			while (j < FIGF_Y)
 			{
-				FIG[j] = (char*)malloc(sizeof(char) * FIG_X);
+				FIGF_F[j] = (char*)malloc(sizeof(char) * FIGF_X);
 				j++;
 			}
 			parse_figure(f, *i);

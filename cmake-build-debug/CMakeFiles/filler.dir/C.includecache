@@ -286,12 +286,20 @@ unistd.h
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
 
+/Users/obaranni/projects/filler/src/analizer/brute_force.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
 /Users/obaranni/projects/filler/src/analizer/set_priorities.c
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
 
 /Users/obaranni/projects/filler/src/filler_main.c
 ../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
+/Users/obaranni/projects/filler/src/parser/cut_figure.c
+../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
 
 /Users/obaranni/projects/filler/src/parser/parse_figure.c

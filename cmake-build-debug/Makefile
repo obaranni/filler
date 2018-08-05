@@ -1878,6 +1878,33 @@ src/analizer/analizer.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/analizer.c.s
 .PHONY : src/analizer/analizer.c.s
 
+src/analizer/brute_force.o: src/analizer/brute_force.c.o
+
+.PHONY : src/analizer/brute_force.o
+
+# target to build an object file
+src/analizer/brute_force.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/brute_force.c.o
+.PHONY : src/analizer/brute_force.c.o
+
+src/analizer/brute_force.i: src/analizer/brute_force.c.i
+
+.PHONY : src/analizer/brute_force.i
+
+# target to preprocess a source file
+src/analizer/brute_force.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/brute_force.c.i
+.PHONY : src/analizer/brute_force.c.i
+
+src/analizer/brute_force.s: src/analizer/brute_force.c.s
+
+.PHONY : src/analizer/brute_force.s
+
+# target to generate assembly for a file
+src/analizer/brute_force.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/brute_force.c.s
+.PHONY : src/analizer/brute_force.c.s
+
 src/analizer/set_priorities.o: src/analizer/set_priorities.c.o
 
 .PHONY : src/analizer/set_priorities.o
@@ -1931,6 +1958,33 @@ src/filler_main.s: src/filler_main.c.s
 src/filler_main.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/filler_main.c.s
 .PHONY : src/filler_main.c.s
+
+src/parser/cut_figure.o: src/parser/cut_figure.c.o
+
+.PHONY : src/parser/cut_figure.o
+
+# target to build an object file
+src/parser/cut_figure.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/cut_figure.c.o
+.PHONY : src/parser/cut_figure.c.o
+
+src/parser/cut_figure.i: src/parser/cut_figure.c.i
+
+.PHONY : src/parser/cut_figure.i
+
+# target to preprocess a source file
+src/parser/cut_figure.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/cut_figure.c.i
+.PHONY : src/parser/cut_figure.c.i
+
+src/parser/cut_figure.s: src/parser/cut_figure.c.s
+
+.PHONY : src/parser/cut_figure.s
+
+# target to generate assembly for a file
+src/parser/cut_figure.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/cut_figure.c.s
+.PHONY : src/parser/cut_figure.c.s
 
 src/parser/parse_figure.o: src/parser/parse_figure.c.o
 
@@ -2325,12 +2379,18 @@ help:
 	@echo "... src/analizer/analizer.o"
 	@echo "... src/analizer/analizer.i"
 	@echo "... src/analizer/analizer.s"
+	@echo "... src/analizer/brute_force.o"
+	@echo "... src/analizer/brute_force.i"
+	@echo "... src/analizer/brute_force.s"
 	@echo "... src/analizer/set_priorities.o"
 	@echo "... src/analizer/set_priorities.i"
 	@echo "... src/analizer/set_priorities.s"
 	@echo "... src/filler_main.o"
 	@echo "... src/filler_main.i"
 	@echo "... src/filler_main.s"
+	@echo "... src/parser/cut_figure.o"
+	@echo "... src/parser/cut_figure.i"
+	@echo "... src/parser/cut_figure.s"
 	@echo "... src/parser/parse_figure.o"
 	@echo "... src/parser/parse_figure.i"
 	@echo "... src/parser/parse_figure.s"

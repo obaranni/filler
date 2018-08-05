@@ -6,7 +6,7 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/08/03 12:24:07 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/05 19:21:36 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,8 @@ SRC =		filler_main.c				\
 			parser/parse_figure.c    	\
 			parser/parse_map.c			\
 			analizer/set_priorities.c   \
+			analizer/brute_force.c		\
+			parser/cut_figure.c			\
 
 OBJ = $(SRC:.c=.o)
 

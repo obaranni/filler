@@ -196,6 +196,10 @@ CMakeFiles/filler.dir/src/analizer/analizer.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/src/analizer/analizer.c
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/analizer/brute_force.c
 CMakeFiles/filler.dir/src/analizer/set_priorities.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
@@ -204,6 +208,10 @@ CMakeFiles/filler.dir/src/filler_main.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/src/filler_main.c
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/parser/cut_figure.c
 CMakeFiles/filler.dir/src/parser/parse_figure.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h

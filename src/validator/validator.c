@@ -46,10 +46,10 @@ void             validate_figure_part(t_filler *f, int *i)
 	r = 0;
 	while (!ft_isdigit(n[r]))
 		r++;
-	FIG_Y = ft_atoi(n + r);
+	FIGF_Y = ft_atoi(n + r);
 	while (ft_isdigit(n[r]))
 		r++;
-	FIG_X = ft_atoi(n + r);
+	FIGF_X = ft_atoi(n + r);
 }
 
 int             validator(t_filler *f)

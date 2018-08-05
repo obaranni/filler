@@ -22,9 +22,13 @@ void			send_respond(t_cord *cord)
 
 int             responder(t_filler *f)
 {
-	cords_to_str(&f->step_cord);
-	send_respond(&f->step_cord);
-	cords_free(&f->step_cord);
+//	cords_to_str(&f->game.step_cord);
+//	send_respond(&f->game.step_cord);
+//	cords_free(&f->game.step_cord);
+	ft_putnbr(f->game.step_cord.x);
+	ft_putchar(32);
+	ft_putnbr(f->game.step_cord.y);
+	ft_putchar(10);
 	return (1);
 }
 

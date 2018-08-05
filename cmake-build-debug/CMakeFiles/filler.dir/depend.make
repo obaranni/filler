@@ -196,6 +196,10 @@ CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/analizer/analizer.c.o: ../src/analizer/analizer.c
 
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o: ../src/analizer/brute_force.c
+
 CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../src/analizer/set_priorities.c
@@ -203,6 +207,10 @@ CMakeFiles/filler.dir/src/analizer/set_priorities.c.o: ../src/analizer/set_prior
 CMakeFiles/filler.dir/src/filler_main.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../src/filler_main.c
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../src/parser/cut_figure.c
 
 CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/parser/parse_figure.c.o: ../libft/inc/libft.h

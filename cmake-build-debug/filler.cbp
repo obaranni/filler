@@ -281,10 +281,16 @@
 		<Unit filename="/Users/obaranni/projects/filler/src/analizer/analizer.c">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/analizer/brute_force.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/analizer/set_priorities.c">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/filler_main.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/parser/cut_figure.c">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/parser/parse_figure.c">

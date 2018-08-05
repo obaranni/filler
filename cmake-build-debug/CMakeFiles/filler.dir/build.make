@@ -1833,6 +1833,54 @@ CMakeFiles/filler.dir/src/analizer/set_priorities.c.o.provides: CMakeFiles/fille
 CMakeFiles/filler.dir/src/analizer/set_priorities.c.o.provides.build: CMakeFiles/filler.dir/src/analizer/set_priorities.c.o
 
 
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../src/parser/cut_figure.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/filler.dir/src/parser/cut_figure.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/src/parser/cut_figure.c.o   -c /Users/obaranni/projects/filler/src/parser/cut_figure.c
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/src/parser/cut_figure.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/obaranni/projects/filler/src/parser/cut_figure.c > CMakeFiles/filler.dir/src/parser/cut_figure.c.i
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/src/parser/cut_figure.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/obaranni/projects/filler/src/parser/cut_figure.c -o CMakeFiles/filler.dir/src/parser/cut_figure.c.s
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/src/parser/cut_figure.c.o.requires
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o.provides: CMakeFiles/filler.dir/src/parser/cut_figure.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/parser/cut_figure.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/src/parser/cut_figure.c.o.provides
+
+CMakeFiles/filler.dir/src/parser/cut_figure.c.o.provides.build: CMakeFiles/filler.dir/src/parser/cut_figure.c.o
+
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o: ../src/analizer/brute_force.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/filler.dir/src/analizer/brute_force.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/src/analizer/brute_force.c.o   -c /Users/obaranni/projects/filler/src/analizer/brute_force.c
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/src/analizer/brute_force.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/obaranni/projects/filler/src/analizer/brute_force.c > CMakeFiles/filler.dir/src/analizer/brute_force.c.i
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/src/analizer/brute_force.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/obaranni/projects/filler/src/analizer/brute_force.c -o CMakeFiles/filler.dir/src/analizer/brute_force.c.s
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/src/analizer/brute_force.c.o.requires
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o.provides: CMakeFiles/filler.dir/src/analizer/brute_force.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/analizer/brute_force.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/src/analizer/brute_force.c.o.provides
+
+CMakeFiles/filler.dir/src/analizer/brute_force.c.o.provides.build: CMakeFiles/filler.dir/src/analizer/brute_force.c.o
+
+
 # Object files for target filler
 filler_OBJECTS = \
 "CMakeFiles/filler.dir/libft/src/ft_absolute_val.c.o" \
@@ -1908,7 +1956,9 @@ filler_OBJECTS = \
 "CMakeFiles/filler.dir/src/parser/parser.c.o" \
 "CMakeFiles/filler.dir/src/parser/parse_map.c.o" \
 "CMakeFiles/filler.dir/src/parser/parse_figure.c.o" \
-"CMakeFiles/filler.dir/src/analizer/set_priorities.c.o"
+"CMakeFiles/filler.dir/src/analizer/set_priorities.c.o" \
+"CMakeFiles/filler.dir/src/parser/cut_figure.c.o" \
+"CMakeFiles/filler.dir/src/analizer/brute_force.c.o"
 
 # External object files for target filler
 filler_EXTERNAL_OBJECTS =
@@ -1987,10 +2037,12 @@ filler: CMakeFiles/filler.dir/src/parser/parser.c.o
 filler: CMakeFiles/filler.dir/src/parser/parse_map.c.o
 filler: CMakeFiles/filler.dir/src/parser/parse_figure.c.o
 filler: CMakeFiles/filler.dir/src/analizer/set_priorities.c.o
+filler: CMakeFiles/filler.dir/src/parser/cut_figure.c.o
+filler: CMakeFiles/filler.dir/src/analizer/brute_force.c.o
 filler: CMakeFiles/filler.dir/build.make
 filler: ../libft/libft.a
 filler: CMakeFiles/filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C executable filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/obaranni/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking C executable filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2072,6 +2124,8 @@ CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parser.c.o.requ
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parse_map.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/parse_figure.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/analizer/set_priorities.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/parser/cut_figure.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/src/analizer/brute_force.c.o.requires
 
 .PHONY : CMakeFiles/filler.dir/requires
 

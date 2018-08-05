@@ -1,5 +1,42 @@
 #include "../inc/filler.h"
 
+void			print_all(t_filler *f)
+{
+	int i;
+	int j;
+
+
+	i = 0;
+	while (i < MAP_Y)
+	{
+		j = 0;
+		while (j < MAP_X)
+		{
+			printf("%2d ", f->game.priorities[i][j]);
+			j++;
+		}
+		printf("\n");
+		i++;
+	}
+
+	i = 0;
+	while (i < MAP_Y) {
+		printf("%s\n", MAP_F[i]);
+		i++;
+	}
+	i = 0;
+	while (i < FIGF_Y) {
+		printf("%s\n", FIGF_F[i]);
+		i++;
+	}
+	i = 0;
+	while (i < FIGS_Y) {
+		printf("%s\n", FIGS_F[i]);
+		i++;
+	}
+	printf("offset x %d    y %d\n", FIG.offset.x, FIG.offset.y);
+}
+
 void 			free_input(t_filler *f)
 {
 	int 		i;
@@ -20,18 +57,27 @@ void			free_map(t_filler *f)
 	i = 0;
 	while (i < MAP_Y)
 	{
-		free(MAP[i]);
+		free(MAP_F[i]);
+		free(PRIOR[i]);
 		i++;
 	}
-	free(MAP);
-
 	i = 0;
-	while (i < FIG_Y)
+	while (i < FIGF_Y)
 	{
-		free(FIG[i]);
+		free(FIGF_F[i]);
 		i++;
 	}
-	free(FIG);
+	i = 0;
+	while (i < FIGS_Y)
+	{
+		free(FIGS_F[i]);
+		i++;
+	}
+	free(f->game.figure.positions);
+	free(FIGS_F);
+	free(PRIOR);
+	free(MAP_F);
+	free(FIGF_F);
 }
 
 void            game(t_filler *f)
@@ -39,27 +85,26 @@ void            game(t_filler *f)
 	int 		i;
 
 	i = 0;
-	while (reader(f) && !i) /// && !i lishnee
+	while (reader(f)) /// && !i lishnee
     {
 		if (validator(f))
 		{
-			free_input(f);
+//			free_input(f);
 			break;
 		}
 
 		parser(f, i);
-        analizer(f);
 
-		f->step_cord.x = 0;
-		f->step_cord.y = 0;
+        analizer(f);
+		//print_all(f);
 
 		responder(f);
 
 
         if (f->graph_mode)
             visualizer(f);
-		free_input(f);
-		free_map(f);
+//		free_input(f);
+//		free_map(f);
 		i++;
     }
 }
@@ -73,5 +118,5 @@ int             main(int argc, char **argv)
     else
         f.graph_mode = 0;
     game(&f);
-	while (1);
+//	while (1);
 }

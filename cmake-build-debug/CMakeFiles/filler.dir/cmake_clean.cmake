@@ -73,6 +73,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/src/parser/parse_map.c.o"
   "CMakeFiles/filler.dir/src/parser/parse_figure.c.o"
   "CMakeFiles/filler.dir/src/analizer/set_priorities.c.o"
+  "CMakeFiles/filler.dir/src/parser/cut_figure.c.o"
+  "CMakeFiles/filler.dir/src/analizer/brute_force.c.o"
   "filler.pdb"
   "filler"
 )

@@ -50,6 +50,8 @@ int                 analizer(t_filler *f)
 	brute_force(f);
 	best_pos = get_a_better_score(POSITOINS);
 	if (best_pos)
-		set_cord(&(f->game.step_cord), best_pos->pos.x - (f->game.figure.offset.x - 1), best_pos->pos.y - (f->game.figure.offset.y - 1));
+		set_cord(&(f->game.step_cord), best_pos->pos.x -
+		(f->game.figure.offset.x - 1), best_pos->pos.y
+		- (f->game.figure.offset.y - 1));
 	return (1);
 }

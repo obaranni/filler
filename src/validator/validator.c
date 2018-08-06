@@ -4,19 +4,24 @@
 
 #include "../../inc/filler.h"
 
-void             validate_players_part(t_filler *f, int *i)
+char			*find_word(char *str, char *word)
+{
+	return (ft_strstr(str, word));
+}
+
+void			validate_players_part(t_filler *f, int *i)
 {
     *i = 0;
 }
 
-void             validate_map_part(t_filler *f, int *i)
+void			validate_map_part(t_filler *f, int *i)
 {
 	char		*n;
 
 	n = "zalupa";
     while (f->input[*i])
 	{
-		if ((n = ft_strstr(f->input[*i], "Plateau")))
+		if ((n = find_word(f->input[*i], "Plateau")))
 			break;
 		(*i)++;
 	}
@@ -31,18 +36,23 @@ void             validate_map_part(t_filler *f, int *i)
 
 }
 
-void             validate_figure_part(t_filler *f, int *i)
+void			validate_figure_part(t_filler *f, int *i)
 {
 	char		*n;
+	int			r;
 
 	n = "zalupa";
-	while (f->input[*i])
+ 	while (f->input[*i])
 	{
-		if ((n = ft_strstr(f->input[*i], "Piece")))
+		if ((n = find_word(f->input[*i], "Piece")))
 			break;
 		(*i)++;
 	}
-	int r;
+	if (!n)
+	{
+		*i = -1;
+		return ;
+	}
 	r = 0;
 	while (!ft_isdigit(n[r]))
 		r++;

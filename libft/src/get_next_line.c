@@ -17,7 +17,7 @@
 
 static int			ft_find(char *all, char **line)
 {
-	if (ft_strchr(all, '\n'))
+	if (all && ft_strchr(all, '\n'))
 	{
 		*line = ft_strsub(all, 0, ft_strchr(all, '\n') - all);
 		return (1);

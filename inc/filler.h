@@ -27,6 +27,8 @@
 #define MY (-1)
 #define DOT (0)
 
+FILE *file;
+
 typedef struct          s_cord
 {
     int                 x;
@@ -92,7 +94,8 @@ int						brute_force(t_filler *f);
 void					set_priorities(t_filler *f);
 int                     analizer(t_filler *f);
 
+void					validate_figure_part(t_filler *f, int *i);
 int						validator(t_filler *f);
 
-int                     reader(t_filler *f);
+int                     reader(t_filler *f, int *repeats, int fd);
 #endif //FILLER_FILLER_H

@@ -1,5 +1,8 @@
 #include "../inc/filler.h"
 
+#include <unistd.h>
+#include <fcntl.h>
+
 void			print_all(t_filler *f)
 {
 	int i;
@@ -54,6 +57,7 @@ void			free_map(t_filler *f)
 {
 	int 		i;
 
+
 	i = 0;
 	while (i < MAP_Y)
 	{
@@ -83,40 +87,49 @@ void			free_map(t_filler *f)
 void            game(t_filler *f)
 {
 	int 		i;
+	int 		repeats;
 
 	i = 0;
-	while (reader(f)) /// && !i lishnee
+	repeats = -1;
+
+	int filedesc = 0;
+	int a;
+
+	while (1)
     {
-		if (validator(f))
+		if (reader(f, &repeats, filedesc))
 		{
-//			free_input(f);
-			break;
+			if (validator(f))
+			{
+				free_input(f);
+				break;
+			}
+			parser(f, i);
+			analizer(f);
+//			print_all(f);
+			responder(f);
+			if (f->graph_mode)
+				visualizer(f);
+			free_input(f);
+			free_map(f);
 		}
+		else
+			break ;
 
-		parser(f, i);
-
-        analizer(f);
-		//print_all(f);
-
-		responder(f);
-
-
-        if (f->graph_mode)
-            visualizer(f);
-//		free_input(f);
-//		free_map(f);
-		i++;
     }
+	close(filedesc);
 }
 
 int             main(int argc, char **argv)
 {
     t_filler    f;
 
+	file = fopen("o.txt", "w");
     if (argc == 2 && ft_strcmp(argv[1], "3d") == 0)
         f.graph_mode = 1;
     else
         f.graph_mode = 0;
     game(&f);
 //	while (1);
+	return (0);
 }

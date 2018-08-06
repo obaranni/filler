@@ -25,8 +25,11 @@ int             responder(t_filler *f)
 //	cords_to_str(&f->game.step_cord);
 //	send_respond(&f->game.step_cord);
 //	cords_free(&f->game.step_cord);
+//	f->game.step_cord.x = 2;
+//	f->game.step_cord.y = 8;
 	ft_putnbr(f->game.step_cord.x);
 	ft_putchar(32);
+
 	ft_putnbr(f->game.step_cord.y);
 	ft_putchar(10);
 	return (1);

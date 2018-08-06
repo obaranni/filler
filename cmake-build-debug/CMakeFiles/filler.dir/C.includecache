@@ -297,6 +297,10 @@ unistd.h
 /Users/obaranni/projects/filler/src/filler_main.c
 ../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
+unistd.h
+-
+fcntl.h
+-
 
 /Users/obaranni/projects/filler/src/parser/cut_figure.c
 ../../inc/filler.h
@@ -317,10 +321,6 @@ unistd.h
 /Users/obaranni/projects/filler/src/reader/reader.c
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h
-unistd.h
--
-fcntl.h
--
 
 /Users/obaranni/projects/filler/src/responder/responder.c
 ../../inc/filler.h

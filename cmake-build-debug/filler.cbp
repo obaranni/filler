@@ -290,6 +290,9 @@
 		<Unit filename="/Users/obaranni/projects/filler/src/filler_main.c">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/Users/obaranni/projects/filler/src/journalist/logbook.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/Users/obaranni/projects/filler/src/parser/cut_figure.c">
 			<Option target="filler"/>
 		</Unit>

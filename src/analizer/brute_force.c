@@ -89,20 +89,17 @@ int					brute_force(t_filler *f)
 {
 	int 			i;
 	int 			j;
-	int 			inserted;
 
-	inserted = 0;
 	i = 0;
 	while (i < MAP_Y)
 	{
 		j = 0;
 		while (j < MAP_X)
 		{
-			if (insert(f, i, j))
-				inserted = 1;
+			insert(f, i, j);
 			j++;
 		}
 		i++;
 	}
-	return (inserted);
+	return (1);
 }

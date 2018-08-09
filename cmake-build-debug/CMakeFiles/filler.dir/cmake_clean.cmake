@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/src/analizer/set_priorities.c.o"
   "CMakeFiles/filler.dir/src/parser/cut_figure.c.o"
   "CMakeFiles/filler.dir/src/analizer/brute_force.c.o"
+  "CMakeFiles/filler.dir/src/journalist/logbook.c.o"
   "filler.pdb"
   "filler"
 )

@@ -208,6 +208,10 @@ CMakeFiles/filler.dir/src/filler_main.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/filler_main.c.o: ../src/filler_main.c
 
+CMakeFiles/filler.dir/src/journalist/logbook.c.o: ../inc/filler.h
+CMakeFiles/filler.dir/src/journalist/logbook.c.o: ../libft/inc/libft.h
+CMakeFiles/filler.dir/src/journalist/logbook.c.o: ../src/journalist/logbook.c
+
 CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../inc/filler.h
 CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../libft/inc/libft.h
 CMakeFiles/filler.dir/src/parser/cut_figure.c.o: ../src/parser/cut_figure.c

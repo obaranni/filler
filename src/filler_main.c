@@ -3,42 +3,6 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-void			print_all(t_filler *f)
-{
-	int i;
-	int j;
-
-
-	i = 0;
-	while (i < MAP_Y)
-	{
-		j = 0;
-		while (j < MAP_X)
-		{
-			printf("%2d ", f->game.priorities[i][j]);
-			j++;
-		}
-		printf("\n");
-		i++;
-	}
-
-	i = 0;
-	while (i < MAP_Y) {
-		printf("%s\n", MAP_F[i]);
-		i++;
-	}
-	i = 0;
-	while (i < FIGF_Y) {
-		printf("%s\n", FIGF_F[i]);
-		i++;
-	}
-	i = 0;
-	while (i < FIGS_Y) {
-		printf("%s\n", FIGS_F[i]);
-		i++;
-	}
-	printf("offset x %d    y %d\n", FIG.offset.x, FIG.offset.y);
-}
 
 void 			free_input(t_filler *f)
 {
@@ -92,9 +56,11 @@ void            game(t_filler *f)
 	i = 0;
 	repeats = -1;
 
-	int filedesc = 0;
-	int a;
+	int filedesc;
 
+//	filedesc = open("vm.txt", O_RDONLY);
+
+	filedesc = 0;
 	while (1)
     {
 		if (reader(f, &repeats, filedesc))
@@ -106,7 +72,7 @@ void            game(t_filler *f)
 			}
 			parser(f, i);
 			analizer(f);
-//			print_all(f);
+			log(f, "all");
 			responder(f);
 			if (f->graph_mode)
 				visualizer(f);

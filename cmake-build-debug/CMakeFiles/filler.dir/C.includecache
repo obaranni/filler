@@ -302,6 +302,10 @@ unistd.h
 fcntl.h
 -
 
+/Users/obaranni/projects/filler/src/journalist/logbook.c
+../../inc/filler.h
+/Users/obaranni/projects/filler/inc/filler.h
+
 /Users/obaranni/projects/filler/src/parser/cut_figure.c
 ../../inc/filler.h
 /Users/obaranni/projects/filler/inc/filler.h

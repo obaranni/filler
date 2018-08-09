@@ -9,7 +9,6 @@ void			find_player(t_filler *f)
 	{
 		if (ft_strstr(f->input[i], NAME))
 		{
-			i++;
 			if (ft_strstr(f->input[i], "p1"))
 			{
 				f->game.my_player = "oO";

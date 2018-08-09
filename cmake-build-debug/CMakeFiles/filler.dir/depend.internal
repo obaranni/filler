@@ -208,6 +208,10 @@ CMakeFiles/filler.dir/src/filler_main.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h
  /Users/obaranni/projects/filler/src/filler_main.c
+CMakeFiles/filler.dir/src/journalist/logbook.c.o
+ /Users/obaranni/projects/filler/inc/filler.h
+ /Users/obaranni/projects/filler/libft/inc/libft.h
+ /Users/obaranni/projects/filler/src/journalist/logbook.c
 CMakeFiles/filler.dir/src/parser/cut_figure.c.o
  /Users/obaranni/projects/filler/inc/filler.h
  /Users/obaranni/projects/filler/libft/inc/libft.h

@@ -1959,6 +1959,33 @@ src/filler_main.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/filler_main.c.s
 .PHONY : src/filler_main.c.s
 
+src/journalist/logbook.o: src/journalist/logbook.c.o
+
+.PHONY : src/journalist/logbook.o
+
+# target to build an object file
+src/journalist/logbook.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/journalist/logbook.c.o
+.PHONY : src/journalist/logbook.c.o
+
+src/journalist/logbook.i: src/journalist/logbook.c.i
+
+.PHONY : src/journalist/logbook.i
+
+# target to preprocess a source file
+src/journalist/logbook.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/journalist/logbook.c.i
+.PHONY : src/journalist/logbook.c.i
+
+src/journalist/logbook.s: src/journalist/logbook.c.s
+
+.PHONY : src/journalist/logbook.s
+
+# target to generate assembly for a file
+src/journalist/logbook.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/src/journalist/logbook.c.s
+.PHONY : src/journalist/logbook.c.s
+
 src/parser/cut_figure.o: src/parser/cut_figure.c.o
 
 .PHONY : src/parser/cut_figure.o
@@ -2388,6 +2415,9 @@ help:
 	@echo "... src/filler_main.o"
 	@echo "... src/filler_main.i"
 	@echo "... src/filler_main.s"
+	@echo "... src/journalist/logbook.o"
+	@echo "... src/journalist/logbook.i"
+	@echo "... src/journalist/logbook.s"
 	@echo "... src/parser/cut_figure.o"
 	@echo "... src/parser/cut_figure.i"
 	@echo "... src/parser/cut_figure.s"

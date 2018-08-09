@@ -1,6 +1,6 @@
 #include "../../inc/filler.h"
 
-int					loop(t_filler *f, int *i, int *repeats, int filedesc)
+int					loop(t_filler *f, int *i, int filedesc)
 {
 	char            *buf;
 	int             len;
@@ -45,7 +45,7 @@ int                 reader(t_filler *f, int *repeats, int fd)
 	f->input = 0;
 	MAP_F = 0;
 	f->input = (char **)malloc(sizeof(char*) * 200);
-	res = loop(f, &i, repeats, fd);
+	res = loop(f, &i, fd);
     f->input[i] = 0;
 	i = 0;
 	while (f->input[i])

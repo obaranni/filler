@@ -75,12 +75,13 @@ typedef struct			s_game
 typedef struct          s_filler
 {
     int                 graph_mode;
+	int                 log_mode;
     char                **input;
 	t_game				game;
 }                       t_filler;
 int                     get_next_line(const int fd, char **line);
 
-void					log(t_filler *f, char *log_func);
+void					logbook(t_filler *f, char *log_func);
 
 void					cut_figure(t_filler *f);
 void					fill_priorities_map(t_filler *f);

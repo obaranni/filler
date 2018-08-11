@@ -2,7 +2,7 @@
 
 int 				is_in_field(t_filler *f, int i, int j)
 {
-	if (i + 1 + FIGS_Y > MAP_Y || j + 1 + FIGS_X > MAP_X)
+	if (i  + FIGS_Y > MAP_Y || j  + FIGS_X > MAP_X)
 		return (0);
 	return (1);
 }
@@ -25,6 +25,8 @@ int 				is_intersection(t_filler *f, int i, int j)
 		{
 			if (PRIOR[i][j] == MY && FIGS_F[y][x] == '*')
 				inter++;
+			if (PRIOR[i][j] == ENEMY && FIGS_F[y][x] == '*')
+				return (0);
 			if (inter > 1)
 				return (0);
 			x++;
@@ -44,11 +46,11 @@ void 				calc_step_score(t_filler *f, int i, int j, t_fig_pos *pos)
 	int 			x;
 	int 			y;
 
-	j_base = j;
 	y = 0;
 	pos->score = 0;
-	pos->pos.x = i;
-	pos->pos.y = j;
+	pos->pos.x = j;
+	pos->pos.y = i;
+	j_base = j;
 	while (y < FIGS_Y)
 	{
 		x = 0;
@@ -68,13 +70,15 @@ void 				calc_step_score(t_filler *f, int i, int j, t_fig_pos *pos)
 int					insert(t_filler *f, int i, int j)
 {
 	int 			k;
+	int 			is_set;
 
+	is_set = 0;
 	if (is_in_field(f, i, j))
 	{
 		if (is_intersection(f, i, j))
 		{
 			k = 0;
-			while (POSITOINS[i]->setted)
+			while (POSITOINS[k]->setted)
 				k++;
 			POSITOINS[k]->setted = 1;
 			calc_step_score(f, i, j, POSITOINS[k]);

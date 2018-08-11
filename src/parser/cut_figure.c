@@ -60,8 +60,8 @@ void			short_figure_creating(t_filler *f)
 
 void			set_offset(t_filler *f)
 {
-	FIG.offset.x = FIG.min_x + 1;
-	FIG.offset.y = FIG.min_y + 1;
+	FIG.offset.x = FIG.min_x;
+	FIG.offset.y = FIG.min_y;
 }
 
 void			cut_figure(t_filler *f)

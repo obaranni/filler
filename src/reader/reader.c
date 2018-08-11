@@ -47,11 +47,5 @@ int                 reader(t_filler *f, int *repeats, int fd)
 	f->input = (char **)malloc(sizeof(char*) * 200);
 	res = loop(f, &i, fd);
     f->input[i] = 0;
-	i = 0;
-	while (f->input[i])
-	{
-		fprintf(file, "%s\n", f->input[i]);
-		i++;
-	}
 	return (res);
 }

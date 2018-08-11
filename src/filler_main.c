@@ -72,7 +72,10 @@ void            game(t_filler *f)
 			}
 			parser(f, i);
 			analizer(f);
-			log(f, "all");
+			logbook(f, "input");
+			logbook(f, "prior");
+			logbook(f, "respond");
+			logbook(f, "offset");
 			responder(f);
 			if (f->graph_mode)
 				visualizer(f);
@@ -91,6 +94,7 @@ int             main(int argc, char **argv)
     t_filler    f;
 
 	file = fopen("o.txt", "w");
+	f.log_mode = 1;
     if (argc == 2 && ft_strcmp(argv[1], "3d") == 0)
         f.graph_mode = 1;
     else

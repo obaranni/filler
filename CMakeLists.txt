@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
-project(filler)
+project(obaranni.filler)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(filler
+add_executable(obaranni.filler
         libft/src/ft_absolute_val.c
         libft/src/ft_atoi.c
         libft/src/ft_bzero.c
@@ -77,4 +77,4 @@ add_executable(filler
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -framework OpenGL -framework AppKit" )
 
 #target_link_libraries(filler /Users/apietush/rt/minilibx_macos/libmlx.a)
-target_link_libraries(filler /Users/obaranni/projects/filler/libft/libft.a)
+target_link_libraries(obaranni.filler /Users/obaranni/projects/filler/libft/libft.a)

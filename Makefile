@@ -6,7 +6,7 @@
 #    By: obaranni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/27 15:44:29 by obaranni          #+#    #+#              #
-#    Updated: 2018/08/05 19:21:36 by obaranni         ###   ########.fr        #
+#    Updated: 2018/08/10 10:26:35 by obaranni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ SRC =		filler_main.c				\
 			analizer/set_priorities.c   \
 			analizer/brute_force.c		\
 			parser/cut_figure.c			\
+			journalist/logbook.c		\
 
 OBJ = $(SRC:.c=.o)
 
@@ -65,6 +66,7 @@ $(OBJ_DIR):
 	mkdir obj/analizer
 	mkdir obj/responder
 	mkdir obj/parser
+	mkdir obj/journalist
 
 $(LIBFT):
 	make -C $(LIB_DIR)

@@ -135,7 +135,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=filler
+CMAKE_PROJECT_NAME:STATIC=obaranni.filler
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -194,6 +194,12 @@ filler_BINARY_DIR:STATIC=/Users/obaranni/projects/filler/cmake-build-debug
 
 //Value Computed by CMake
 filler_SOURCE_DIR:STATIC=/Users/obaranni/projects/filler
+
+//Value Computed by CMake
+obaranni.filler_BINARY_DIR:STATIC=/Users/obaranni/projects/filler/cmake-build-debug
+
+//Value Computed by CMake
+obaranni.filler_SOURCE_DIR:STATIC=/Users/obaranni/projects/filler
 
 
 ########################

@@ -33,9 +33,9 @@ t_fig_pos			*get_a_better_score(t_fig_pos **array)
 		return (NULL);
 	while (array[i]->setted)
 	{
-		if (better && better->score < array[i]->score)
+		if (better && better->score > array[i]->score)
 			better = array[i];
-
+		i++;
 	}
 	return (better);
 }
@@ -51,7 +51,7 @@ int                 analizer(t_filler *f)
 	best_pos = get_a_better_score(POSITOINS);
 	if (best_pos)
 		set_cord(&(f->game.step_cord), best_pos->pos.x -
-		(f->game.figure.offset.x - 1), best_pos->pos.y
-		- (f->game.figure.offset.y - 1));
+									   (f->game.figure.offset.x), best_pos->pos.y
+																  - (f->game.figure.offset.y));
 	return (1);
 }

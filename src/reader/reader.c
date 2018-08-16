@@ -10,27 +10,36 @@ int					loop(t_filler *f, int *i, int filedesc)
 	while (get_next_line(filedesc, &buf) > 0)
 	{
 		len = (int)ft_strlen(buf);
-		f->input[*i] = (char*)malloc(sizeof(char) * len);
+
+		f->input[*i] = (char*)malloc(sizeof(char) * len + 1);
+//		printf("%s\n", buf);
 		ft_strcpy(f->input[*i], buf);
-		if (ft_strncmp(buf, "Piece", 4) == 0)
+//		if (ft_strcmp(f->input[*i], buf) != 0)
+//			printf("\n\n\nALLERT\n\n\n");
+		if (ft_strncmp(buf, "Piece", 5) == 0)
 		{
-			free(buf);
+			ft_strdel(&buf);
 			validate_figure_part(f, i);
 			to_end = FIGF_Y;
 			(*i)++;
 			while (to_end > 0)
 			{
 				get_next_line(filedesc, &buf);
-				free(buf);
 				len = (int) ft_strlen(buf);
-				f->input[*i] = (char *) malloc(sizeof(char) * len);
+//                if (ft_strlen(buf) != FIGF_Y - 1)
+//                    printf("ALLERT\n");
+				f->input[*i] = (char *) malloc(sizeof(char) * len + 1);
+//				printf("%s\n", buf);
 				ft_strcpy(f->input[*i], buf);
+//				if (ft_strcmp(f->input[*i], buf) != 0)
+//					printf("ALLERT\n");
 				to_end--;
+                ft_strdel(&buf);
 				(*i)++;
 			}
 			return (1);
 		}
-		free(buf);
+		ft_strdel(&buf);
 		(*i)++;
 	}
 	return (0);

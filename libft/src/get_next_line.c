@@ -13,59 +13,69 @@
 #include "../inc/libft.h"
 #include "../inc/get_next_line.h"
 #include <stdlib.h>
+#include "limits.h"
 #include <unistd.h>
 
 
-int		ft_new_line(char **s, char **line, int fd, int ret)
+char	*gnl_join(char *str, char *buff)
 {
-    char	*tmp;
-    int		len;
+    char *tmp;
 
-    len = 0;
-    while (s[fd][len] != '\n' && s[fd][len] != '\0')
-        len++;
-    if (s[fd][len] == '\n')
+    tmp = ft_strjoin(str, buff);
+    ft_strdel(&str);
+    return (tmp);
+}
+
+int		find_nl(char *str, char **line, char *stat)
+{
+    size_t	i;
+    char	*presult;
+    char	*tmp;
+
+    i = 0;
+    while (str[i] != '\0')
     {
-        *line = ft_strsub(s[fd], 0, len);
-        tmp = ft_strdup(s[fd] + len + 1);
-        free(s[fd]);
-        s[fd] = tmp;
-        if (s[fd][0] == '\0')
-            ft_strdel(&s[fd]);
+        if (str[i] == '\n')
+        {
+            presult = ft_strsub(str, 0, i);
+            tmp = ft_strsub(str, (unsigned int)(i + 1),
+                            (int)ft_strlen(str) - i);
+            ft_memmove(stat, tmp, ft_strlen(tmp) + 1);
+            *line = ft_strdup(presult);
+            free(tmp);
+            free(presult);
+            return (1);
+        }
+        i++;
     }
-    else if (s[fd][len] == '\0')
-    {
-        if (ret == BUFF_SIZE)
-            return (get_next_line(fd, line));
-        *line = ft_strdup(s[fd]);
-        ft_strdel(&s[fd]);
-    }
-    return (1);
+    return (0);
 }
 
 int		get_next_line(const int fd, char **line)
 {
-    static char	*s[255];
-    char		buf[BUFF_SIZE + 1];
-    char		*tmp;
-    int			ret;
+    ssize_t		ret;
+    char		buff[BUFF_SIZE + 1];
+    static char	sgnl[OPEN_MAX][BUFF_SIZE + 1];
+    char		*wstr;
 
-    if (fd < 0 || line == NULL)
+    if (fd < 0 || fd > OPEN_MAX || !line || BUFF_SIZE <= 0)
         return (-1);
-    while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
+    else if (find_nl(sgnl[fd], line, sgnl[fd]))
+        return (1);
+    wstr = ft_strdup(sgnl[fd]);
+    ft_memset(buff, 0, BUFF_SIZE);
+    while ((ret = read(fd, buff, BUFF_SIZE)) != 0)
     {
-        buf[ret] = '\0';
-        if (s[fd] == NULL)
-            s[fd] = ft_strnew(1);
-        tmp = ft_strjoin(s[fd], buf);
-        free(s[fd]);
-        s[fd] = tmp;
-        if (ft_strchr(buf, '\n'))
-            break ;
+        if (ret < 0 || (buff[ret] = '\0'))
+            return (-1);
+        wstr = gnl_join(wstr, buff);
+        if (find_nl(wstr, line, sgnl[fd]))
+        {
+            free(wstr);
+            return (1);
+        }
     }
-    if (ret < 0)
-        return (-1);
-    else if (ret == 0 && (s[fd] == NULL || s[fd][0] == '\0'))
-        return (0);
-    return (ft_new_line(s, line, fd, ret));
+    if (ft_strlen(wstr) > 0 && ret == 0)
+        sgnl[fd][0] = '\0';
+    return ((*line = wstr) && ft_strlen(*line) != 0);
 }

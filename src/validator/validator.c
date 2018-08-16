@@ -27,6 +27,11 @@ void			validate_map_part(t_filler *f, int *i)
 	}
 	int r;
 	r = 0;
+    if (!n)
+    {
+        *i = -1;
+        return ;
+    }
 	while (!ft_isdigit(n[r]))
 		r++;
     MAP_Y = ft_atoi(n + r);
@@ -73,6 +78,18 @@ int             validator(t_filler *f)
         printf("Error in players part!");
         return (1);
     }
+
+    ///
+//    int j;
+//
+//    j = 0;
+//    while (f->input[j])
+//    {
+//        printf("%s\n", f->input[j]);
+//        j++;
+//    }
+    ///
+
     validate_map_part(f, &i);
     if (i == -1)
     {

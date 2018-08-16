@@ -49,33 +49,32 @@ function test(){
     done
    }
 
-
 PLAYER='abanlin.filler'
-TEST='1'
-MAP='0'
+TEST='120'
+MAP='2'
 test
 
 PLAYER='champely.filler'
-TEST='10'
-MAP='0'
+TEST='130'
+MAP='2'
 test
 
 PLAYER='grati.filler'
-TEST='20'
-MAP='0'
+TEST='140'
+MAP='2'
 test
 
 PLAYER='carli.filler'
-TEST='30'
-MAP='0'
+TEST='150'
+MAP='2'
 test
 
 PLAYER='hcao.filler'
-TEST='40'
-MAP='0'
+TEST='160'
+MAP='2'
 test
 
 PLAYER='superjeannot.filler'
-TEST='50'
-MAP='0'
+TEST='170'
+MAP='2'
 test

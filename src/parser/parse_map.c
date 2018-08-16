@@ -6,11 +6,11 @@ void			fill_priorities_map(t_filler *f)
 	int 		j;
 
 	i = 0;
-	PRIOR = (int**)malloc(sizeof(int*) * MAP_Y);
+	PRIOR = (int**)malloc(sizeof(int*) * MAP_Y + 1);
 	while (i < MAP_Y)
 	{
 		j = 0;
-		PRIOR[i] = (int*)malloc(sizeof(int) * MAP_X);
+		PRIOR[i] = (int*)malloc(sizeof(int) * MAP_X + 1);
 		while (j < MAP_X)
 		{
 			if (MAP_F[i][j] == '.')

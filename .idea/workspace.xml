@@ -13,115 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="325c8dd9-63d3-4dd0-ad86-882748669ce8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/src/filler_main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filler.dir/src/reader/reader.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/obaranni.filler.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/obaranni.filler" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/obaranni.filler" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/obaranni.filler.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/obaranni.filler.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/get_next_line.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/o.txt" beforeDir="false" afterPath="$PROJECT_DIR$/o.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obaranni.filler" beforeDir="false" afterPath="$PROJECT_DIR$/obaranni.filler" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filler_main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/filler_main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/parse_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parse_map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reader/reader.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/reader/reader.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/validator.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/validator.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/1" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/10" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/11" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/12" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/13" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/14" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/15" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/15" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/16" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/16" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/17" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/17" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/18" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/18" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/19" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/2" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/20" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/20" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/21" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/21" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/22" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/23" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/24" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/24" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/25" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/25" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/26" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/27" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/27" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/28" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/28" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/29" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/29" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/3" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/30" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/30" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/31" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/31" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/32" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/33" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/33" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/34" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/34" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/35" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/35" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/36" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/36" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/37" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/37" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/38" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/38" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/39" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/39" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/4" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/40" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/41" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/41" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/42" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/42" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/43" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/43" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/44" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/44" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/45" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/45" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/46" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/46" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/47" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/47" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/48" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/48" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/49" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/49" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/5" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/50" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/51" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/51" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/52" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/52" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/53" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/53" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/54" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/54" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/55" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/55" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/56" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/56" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/57" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/57" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/58" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/58" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/59" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/59" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/6" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/60" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/60" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/7" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/8" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/log/9" beforeDir="false" afterPath="$PROJECT_DIR$/tests/log/9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_filler_map00.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_filler_map00.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vm.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,12 +29,13 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="626" />
+          <entry key="c" value="627" />
           <entry key="h" value="5" />
           <entry key="m" value="12" />
           <entry key="txt" value="45" />
@@ -152,7 +45,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="3" />
-          <entry key="ObjectiveC" value="640" />
+          <entry key="ObjectiveC" value="641" />
           <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
@@ -172,17 +65,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6666667">
+    <splitter split-orientation="horizontal" split-proportion="0.7282969">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.833002">
+        <splitter split-orientation="horizontal" split-proportion="0.54545456">
           <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.57706094">
+            <splitter split-orientation="horizontal" split-proportion="0.18312387">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/filler_main.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="1120">
+                        <state relative-caret-position="1425">
                           <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
                           <folding>
                             <element signature="e#0#26#0" expanded="true" />
@@ -194,7 +87,7 @@
                   <file pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/validator/validator.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="141">
+                        <state relative-caret-position="1425">
                           <caret line="95" selection-start-line="95" selection-end-line="95" />
                         </state>
                       </provider>
@@ -203,7 +96,7 @@
                   <file pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/libft/src/ft_atoi.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="321">
+                        <state relative-caret-position="405">
                           <caret line="27" selection-start-line="27" selection-end-line="27" />
                         </state>
                       </provider>
@@ -227,20 +120,20 @@
                       </provider>
                     </entry>
                   </file>
-                  <file pinned="false" current-in-tab="true">
+                  <file pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/parser/parse_map.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="465">
-                          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+                        <state relative-caret-position="735">
+                          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file pinned="false" current-in-tab="false">
+                  <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/analizer/set_priorities.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="1845">
-                          <caret line="123" column="21" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="21" />
+                        <state relative-caret-position="139">
+                          <caret line="115" column="20" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="20" />
                         </state>
                       </provider>
                     </entry>
@@ -258,20 +151,20 @@
               </split-first>
               <split-second>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file pinned="false" current-in-tab="true">
+                  <file pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/analizer/analizer.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="390">
-                          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+                        <state relative-caret-position="334">
+                          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file pinned="false" current-in-tab="false">
+                  <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/analizer/brute_force.c">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="225">
-                          <caret line="15" selection-start-line="15" selection-end-line="15" />
+                        <state relative-caret-position="244">
+                          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
                         </state>
                       </provider>
                     </entry>
@@ -303,8 +196,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/reader/reader.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="658">
-                      <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+                    <state relative-caret-position="108">
+                      <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
                     </state>
                   </provider>
                 </entry>
@@ -312,7 +205,7 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/libft/src/ft_strcpy.c">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="110">
+                    <state relative-caret-position="180">
                       <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
                     </state>
                   </provider>
@@ -330,7 +223,7 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/tests/test_filler_map00.sh">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-90">
+                    <state relative-caret-position="1215">
                       <caret line="81" selection-start-line="81" selection-end-line="81" />
                     </state>
                   </provider>
@@ -354,8 +247,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/vm.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="886" lean-forward="true" selection-start-line="886" selection-end-line="886" />
+                <state relative-caret-position="295">
+                  <caret line="1165" column="12" selection-start-line="1165" selection-start-column="12" selection-end-line="1165" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -363,7 +256,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/libft/src/get_next_line.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
+                <state relative-caret-position="765">
                   <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
                   <folding>
                     <element signature="e#892#917#0" expanded="true" />
@@ -375,7 +268,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-13">
+                <state relative-caret-position="720">
                   <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
                 </state>
               </provider>
@@ -458,9 +351,9 @@
         <option value="$PROJECT_DIR$/libft/inc/get_next_line.h" />
         <option value="$PROJECT_DIR$/libft/src/ft_strcpy.c" />
         <option value="$PROJECT_DIR$/src/filler_main.c" />
-        <option value="$PROJECT_DIR$/src/reader/reader.c" />
         <option value="$PROJECT_DIR$/src/parser/parse_map.c" />
         <option value="$PROJECT_DIR$/vm.txt" />
+        <option value="$PROJECT_DIR$/src/reader/reader.c" />
       </list>
     </option>
   </component>
@@ -471,10 +364,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1337" />
+    <option name="width" value="1680" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -498,7 +391,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,7 +412,41 @@
             <path>
               <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
               <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
+              <item name="analizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
+              <item name="journalist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="analizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="obaranni.filler" type="b2602c69:ProjectViewProjectNode" />
@@ -532,6 +458,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -610,22 +537,23 @@
       <workItem from="1533985132216" duration="1132000" />
       <workItem from="1533989660724" duration="4899000" />
       <workItem from="1534283260790" duration="21529000" />
+      <workItem from="1534527270327" duration="2134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115598000" />
+    <option name="totallyTimeSpent" value="117732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07814408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14102565" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49829787" weight="0.33180252" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49829787" visible="true" weight="0.33107343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21239954" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,11 +562,12 @@
       <window_info anchor="bottom" id="CMake" order="8" weight="0.3294964" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.36576444" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50170213" side_tool="true" weight="0.26403162" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32146958" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32090396" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,17 +756,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_strchr.c">
+    <entry file="file://$PROJECT_DIR$/tests/log/17">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="717">
+          <caret line="3186" column="21" selection-start-line="3186" selection-start-column="21" selection-end-line="3186" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analizer/set_priorities.c">
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_strlen.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="21" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_strstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filler_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/validator/validator.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_atoi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -855,20 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/log/17">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="3186" column="21" selection-start-line="3186" selection-start-column="21" selection-end-line="3186" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/filler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/parser.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -876,31 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_filler_map00.sh">
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_strcpy.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_isdigit.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_atoi.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_strlen.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="180">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -911,22 +848,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/o.txt">
+    <entry file="file://$PROJECT_DIR$/tests/test_filler_map00.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2711" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_strstr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="1215">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/validator/validator.c">
+    <entry file="file://$PROJECT_DIR$/inc/filler.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/src/get_next_line.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#892#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -937,79 +886,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/get_next_line.c">
+    <entry file="file://$PROJECT_DIR$/vm.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding>
-            <element signature="e#892#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/src/ft_strcpy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reader/reader.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/analizer/brute_force.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/analizer/analizer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filler_main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="1165" column="12" selection-start-line="1165" selection-start-column="12" selection-end-line="1165" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/parse_map.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        <state relative-caret-position="735">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vm.txt">
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_strchr.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="886" lean-forward="true" selection-start-line="886" selection-end-line="886" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reader/reader.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/src/ft_isdigit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analizer/set_priorities.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analizer/analizer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analizer/brute_force.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -20,18 +20,6 @@ unistd.h
 string.h
 -
 
-/Users/macbookpro/projects/filler/src/filler_main.c
-../inc/filler.h
-/Users/macbookpro/projects/filler/inc/filler.h
-unistd.h
--
-fcntl.h
--
-
-/Users/macbookpro/projects/filler/src/parser/parse_map.c
-../../inc/filler.h
-/Users/macbookpro/projects/filler/inc/filler.h
-
 /Users/macbookpro/projects/filler/src/reader/reader.c
 ../../inc/filler.h
 /Users/macbookpro/projects/filler/inc/filler.h

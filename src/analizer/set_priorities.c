@@ -73,26 +73,6 @@ void				calc_priority(t_filler *f, int i, int j, int c)
 		PRIOR[i + 1][j + 1] = c;
 }
 
-void		log_priorities2(t_filler *f)
-{
-	int		i;
-	int		j;
-
-	i = 0;
-	while (i < MAP_Y)
-	{
-		j = 0;
-		while (j < MAP_X)
-		{
-			printf("%2d ", f->game.priorities[i][j]);
-			j++;
-		}
-		printf("\n");
-		i++;
-	}
-	printf("\n");
-}
-
 void				set_priorities(t_filler *f)
 {
 	int 			c;

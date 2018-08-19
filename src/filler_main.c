@@ -26,14 +26,15 @@ void			free_map(t_filler *f)
 	////
 //	while (i < MAP_Y)
 //    {
-//	    printf("%s\n", MAP_F[i]);
+//	   ft_putendl(MAP_F[i]);
+//
 //	    i++;
 //    }
     ////
     i = 0;
 	while (i < MAP_Y)
 	{
-		free(MAP_F[i]);
+        free(MAP_F[i]);
 		free(PRIOR[i]);
 		i++;
 	}

@@ -12,10 +12,7 @@ int					loop(t_filler *f, int *i, int filedesc)
 		len = (int)ft_strlen(buf);
 
 		f->input[*i] = (char*)malloc(sizeof(char) * len + 1);
-//		printf("%s\n", buf);
 		ft_strcpy(f->input[*i], buf);
-//		if (ft_strcmp(f->input[*i], buf) != 0)
-//			printf("\n\n\nALLERT\n\n\n");
 		if (ft_strncmp(buf, "Piece", 5) == 0)
 		{
 			ft_strdel(&buf);
@@ -26,13 +23,8 @@ int					loop(t_filler *f, int *i, int filedesc)
 			{
 				get_next_line(filedesc, &buf);
 				len = (int) ft_strlen(buf);
-//                if (ft_strlen(buf) != FIGF_Y - 1)
-//                    printf("ALLERT\n");
 				f->input[*i] = (char *) malloc(sizeof(char) * len + 1);
-//				printf("%s\n", buf);
 				ft_strcpy(f->input[*i], buf);
-//				if (ft_strcmp(f->input[*i], buf) != 0)
-//					printf("ALLERT\n");
 				to_end--;
                 ft_strdel(&buf);
 				(*i)++;

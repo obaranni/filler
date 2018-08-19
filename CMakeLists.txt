@@ -77,4 +77,4 @@ add_executable(obaranni.filler
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -framework OpenGL -framework AppKit" )
 
 #target_link_libraries(filler /Users/apietush/rt/minilibx_macos/libmlx.a)
-target_link_libraries(obaranni.filler /Users/macbookpro/projects/filler/libft/libft.a)
+target_link_libraries(obaranni.filler /Users/obaranni/projects/filler/libft/libft.a)

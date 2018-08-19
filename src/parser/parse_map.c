@@ -45,6 +45,8 @@ void			parse_map(t_filler *f, int *i)
 			t++;
 		}
 		MAP_F[k][t] = 0;
+//        if (ft_strlen(MAP_F[k]) < 99)
+//            ft_putendl(MAP_F[k]);
 		k++;
 		(*i)++;
 	}

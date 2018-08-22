@@ -21,16 +21,6 @@ void			free_map(t_filler *f)
 {
 	int 		i;
 
-
-	i = 0;
-	////
-//	while (i < MAP_Y)
-//    {
-//	   ft_putendl(MAP_F[i]);
-//
-//	    i++;
-//    }
-    ////
     i = 0;
 	while (i < MAP_Y)
 	{
@@ -50,6 +40,12 @@ void			free_map(t_filler *f)
 		free(FIGS_F[i]);
 		i++;
 	}
+	i = 0;
+	while (i < ((MAP_X * MAP_Y) - 1))
+    {
+	    free(f->game.figure.positions[i]);
+	    i++;
+    }
 	free(f->game.figure.positions);
 	free(FIGS_F);
 	free(PRIOR);
@@ -60,25 +56,24 @@ void			free_map(t_filler *f)
 void            game(t_filler *f)
 {
 	int 		i;
-	int 		repeats;
+    int         filedesc;
 
 	i = 0;
-	repeats = -1;
-
-	int filedesc;
-
-//	filedesc = open("vm.txt", O_RDONLY);
-
 	filedesc = 0;
+
+	// create all
+
 	while (1)
     {
-		if (reader(f, &repeats, filedesc))
+		if (reader(f, filedesc))
 		{
 			if (validator(f))
 			{
 				free_input(f);
 				break;
 			}
+			if (!i && f->graph_mode)
+				visualize_players(f);
 			parser(f, i);
 			analizer(f);
 			logbook(f, "input");
@@ -87,15 +82,16 @@ void            game(t_filler *f)
 			logbook(f, "offset");
 			responder(f);
 			if (f->graph_mode)
-				visualizer(f);
-			free_input(f);
+				visualize_game(f);
+            mlx_loop(f->win.mlx);
+            free_input(f);
 			free_map(f);
+			i++;
 		}
 		else
 			break ;
-
     }
-	close(filedesc);
+    // clear all
 }
 
 int             main(int argc, char **argv)
@@ -105,10 +101,12 @@ int             main(int argc, char **argv)
 	file = fopen("o.txt", "w");
 	f.log_mode = 1;
     if (argc == 2 && ft_strcmp(argv[1], "3d") == 0)
+    {
         f.graph_mode = 1;
+        init_window(&f);
+    }
     else
         f.graph_mode = 0;
     game(&f);
-//	while (1);
 	return (0);
 }

@@ -44,9 +44,6 @@ void			parse_map(t_filler *f, int *i)
 			j++;
 			t++;
 		}
-		MAP_F[k][t] = 0;
-//        if (ft_strlen(MAP_F[k]) < 99)
-//            ft_putendl(MAP_F[k]);
 		k++;
 		(*i)++;
 	}
@@ -56,16 +53,16 @@ void			find_map(t_filler *f, int *i)
 {
 	int 		j;
 
-	j = 0;
 	while (f->input[*i])
 	{
 		if (ft_strstr(f->input[*i], "Plateau"))
 		{
 			(*i) += 2;
+            j = 0;
 			MAP_F = (char **)malloc(sizeof(char*) * MAP_Y);
 			while (j < MAP_Y)
 			{
-				MAP_F[j] = (char*)malloc(sizeof(char) * MAP_X);
+				MAP_F[j] = (char*)malloc(sizeof(char) * MAP_X + 100);
 				j++;
 			}
 			parse_map(f, i);

@@ -17,7 +17,6 @@ void			parse_figure(t_filler *f, int i)
 			j++;
 			t++;
 		}
-		FIGF_F[k][t] = 0;
 		k++;
 		i++;
 	}

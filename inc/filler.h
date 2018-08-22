@@ -6,8 +6,13 @@
 #define FILLER_FILLER_H
 #include "../libft/inc/libft.h"
 #include <stdio.h>
+#include "../minilibx_macos/mlx.h"
 #define NAME "obaranni.filler"
 #define MAPCHARS ".xXoO"
+#define WIN_W   1600
+#define WIN_H   900
+#define IMG_M_W 1000
+#define IMG_LR_W 300
 #define MAP_F	(f->game.map.field)
 #define MAP_X	(f->game.map.field_size.x)
 #define MAP_Y	(f->game.map.field_size.y)
@@ -62,6 +67,21 @@ typedef	struct			s_figure
 	t_cord				offset;
 }						t_figure;
 
+typedef struct          s_win
+{
+    void                *mlx;
+    void                *win;
+    void                *img_r;
+    void                *img_m;
+    void                *img_l;
+    char                *data_r;
+    char                *data_m;
+    char                *data_l;
+    int                 size_line;
+    int                 bpp;
+    int                 endian;
+}                       t_win;
+
 typedef struct			s_game
 {
 	char 				*my_player;
@@ -77,6 +97,7 @@ typedef struct          s_filler
     int                 graph_mode;
 	int                 log_mode;
     char                **input;
+    t_win               win;
 	t_game				game;
 }                       t_filler;
 int                     get_next_line(const int fd, char **line);
@@ -89,7 +110,9 @@ void					find_map(t_filler *f, int *i);
 void					find_figure(t_filler *f, int *i);
 int						parser(t_filler *f, int i);
 
-int						visualizer(t_filler *f);
+void                    init_window(t_filler *f);
+void                    visualize_players(t_filler *f);
+int						visualize_game(t_filler *f);
 
 int						responder(t_filler *f);
 
@@ -100,5 +123,5 @@ int                     analizer(t_filler *f);
 void					validate_figure_part(t_filler *f, int *i);
 int						validator(t_filler *f);
 
-int                     reader(t_filler *f, int *repeats, int fd);
+int                     reader(t_filler *f, int fd);
 #endif //FILLER_FILLER_H

@@ -44,7 +44,7 @@ OBJ_FILES =	$(addprefix $(OBJ_DIR),$(OBJ))
 
 COMPALING_FLAGS = -I$(INC_DIR) -I$(LIB_DIR)# `pkg-config --cflags gtk+-3.0`
 
-LINKING_FLAGS = -framework opengl -framework appkit -lft -L$(LIB_DIR)# `pkg-config --libs --cflags gtk+-3.0`
+LINKING_FLAGS = -framework opengl -framework appkit -lft -L$(LIB_DIR) -lmlx -L minilibx_macos # `pkg-config --libs --cflags gtk+-3.0`
 
 CC = gcc
 

@@ -30,11 +30,15 @@ int 			parser(t_filler *f, int i)
 	if (!i)
 		find_player(f);
 	i = 0;
-	find_map(f, &i);
-	find_figure(f, &i);
-	cut_figure(f);
-	fill_priorities_map(f);
 
+
+	find_map(f, &i);
+
+	find_figure(f, &i);
+
+	cut_figure(f);
+
+	fill_priorities_map(f);
 
 	return (0);
 }

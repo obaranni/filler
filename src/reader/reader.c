@@ -37,7 +37,7 @@ int					loop(t_filler *f, int *i, int filedesc)
 	return (0);
 }
 
-int                 reader(t_filler *f, int *repeats, int fd)
+int                 reader(t_filler *f, int fd)
 {
     int             i;
 	int 			res;
@@ -45,7 +45,7 @@ int                 reader(t_filler *f, int *repeats, int fd)
     i = 0;
 	f->input = 0;
 	MAP_F = 0;
-	f->input = (char **)malloc(sizeof(char*) * 200);
+	f->input = (char **)malloc(sizeof(char*) * 4096);
 	res = loop(f, &i, fd);
     f->input[i] = 0;
 	return (res);

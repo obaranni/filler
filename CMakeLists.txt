@@ -72,9 +72,9 @@ add_executable(obaranni.filler
         inc/filler.h
         src/reader/reader.c
         libft/src/get_next_line.c
-        src/validator/validator.c src/analizer/analizer.c src/responder/responder.c src/visualizer/visualizer.c src/parser/parser.c src/parser/parse_map.c src/parser/parse_figure.c src/analizer/set_priorities.c src/parser/cut_figure.c src/analizer/brute_force.c src/journalist/logbook.c)
+        src/validator/validator.c src/analizer/analizer.c src/responder/responder.c src/visualizer/visualizer.c src/parser/parser.c src/parser/parse_map.c src/parser/parse_figure.c src/analizer/set_priorities.c src/parser/cut_figure.c src/analizer/brute_force.c src/journalist/logbook.c src/free.c)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -framework OpenGL -framework AppKit" )
 
-target_link_libraries(obaranni.filler /Users/macbookpro/projects/filler/minilibx_macos/libmlx.a)
-target_link_libraries(obaranni.filler /Users/macbookpro/projects/filler/libft/libft.a)
+#target_link_libraries(obaranni.filler /Users/macbookpro/projects/filler/minilibx_macos/libmlx.a)
+target_link_libraries(obaranni.filler /Users/obaranni/projects/filler/libft/libft.a)

@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_map.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:46:17 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 14:46:19 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
 void			fill_priorities_map(t_filler *f)
 {
-	int 		i;
-	int 		j;
+	int			i;
+	int			j;
 
 	i = 0;
 	PRIOR = (int**)malloc(sizeof(int*) * MAP_Y + 1);
@@ -51,14 +63,14 @@ void			parse_map(t_filler *f, int *i)
 
 void			find_map(t_filler *f, int *i)
 {
-	int 		j;
+	int			j;
 
 	while (f->input[*i])
 	{
 		if (ft_strstr(f->input[*i], "Plateau"))
 		{
 			(*i) += 2;
-            j = 0;
+			j = 0;
 			MAP_F = (char **)malloc(sizeof(char*) * MAP_Y);
 			while (j < MAP_Y)
 			{

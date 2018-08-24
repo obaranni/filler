@@ -1,22 +1,34 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   brute_force.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:35:14 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 14:35:37 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
-int 				is_in_field(t_filler *f, int i, int j)
+int					is_in_field(t_filler *f, int i, int j)
 {
-	if (i  + FIGS_Y > MAP_Y || j  + FIGS_X > MAP_X)
+	if (i + FIGS_Y > MAP_Y || j + FIGS_X > MAP_X)
 		return (0);
 	return (1);
 }
 
-int 				is_intersection(t_filler *f, int i, int j)
+int					is_intersection(t_filler *f, int i, int j)
 {
-	int 			inter;
-	int 			j_base;
-	int 			x;
-	int 			y;
+	int				inter;
+	int				j_base;
+	int				x;
+	int				y;
 
-	j_base = j;
 	y = 0;
 	inter = 0;
+	j_base = j;
 	while (y < FIGS_Y)
 	{
 		x = 0;
@@ -27,24 +39,20 @@ int 				is_intersection(t_filler *f, int i, int j)
 				inter++;
 			if (PRIOR[i][j] == ENEMY && FIGS_F[y][x] == '*')
 				return (0);
-			if (inter > 1)
-				return (0);
 			x++;
 			j++;
 		}
 		i++;
 		y++;
 	}
-	if (inter == 0)
-		return (0);
-	return (1);
+	return (inter);
 }
 
-void 				calc_step_score(t_filler *f, int i, int j, t_fig_pos *pos)
+void				calc_step_score(t_filler *f, int i, int j, t_fig_pos *pos)
 {
-	int 			j_base;
-	int 			x;
-	int 			y;
+	int				j_base;
+	int				x;
+	int				y;
 
 	y = 0;
 	pos->score = 0;
@@ -69,13 +77,11 @@ void 				calc_step_score(t_filler *f, int i, int j, t_fig_pos *pos)
 
 int					insert(t_filler *f, int i, int j)
 {
-	int 			k;
-	int 			is_set;
+	int				k;
 
-	is_set = 0;
 	if (is_in_field(f, i, j))
 	{
-		if (is_intersection(f, i, j))
+		if (is_intersection(f, i, j) == 1)
 		{
 			k = 0;
 			while (POSITOINS[k]->setted)
@@ -91,8 +97,8 @@ int					insert(t_filler *f, int i, int j)
 
 int					brute_force(t_filler *f)
 {
-	int 			i;
-	int 			j;
+	int				i;
+	int				j;
 
 	i = 0;
 	while (i < MAP_Y)

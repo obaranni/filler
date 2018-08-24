@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   set_priorities.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:54:23 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 14:55:47 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
-int 				set_fanced_value(t_filler *f)
+int					set_fanced_value(t_filler *f)
 {
-	int 			i;
-	int 			j;
+	int				i;
+	int				j;
 
 	i = 0;
 	while (i < MAP_Y)
@@ -18,7 +30,6 @@ int 				set_fanced_value(t_filler *f)
 				else
 					PRIOR[i][j] = MAP_Y;
 			}
-
 			j++;
 		}
 		i++;
@@ -26,11 +37,10 @@ int 				set_fanced_value(t_filler *f)
 	return (1);
 }
 
-
-int 				is_seted(t_filler *f)
+int					is_seted(t_filler *f)
 {
-	int 			i;
-	int 			j;
+	int				i;
+	int				j;
 
 	i = 0;
 	while (i < MAP_Y)
@@ -49,12 +59,11 @@ int 				is_seted(t_filler *f)
 
 void				calc_priority(t_filler *f, int i, int j, int c)
 {
-	int 			mx;
-	int 			my;
+	int				mx;
+	int				my;
 
 	mx = MAP_X - 1;
 	my = MAP_Y - 1;
-
 	if (i - 1 >= 0 && PRIOR[i - 1][j] == 0)
 		PRIOR[i - 1][j] = c;
 	if (i + 1 <= my && PRIOR[i + 1][j] == 0)
@@ -73,45 +82,50 @@ void				calc_priority(t_filler *f, int i, int j, int c)
 		PRIOR[i + 1][j + 1] = c;
 }
 
-void				set_priorities(t_filler *f)
+void				set_around_enemy(t_filler *f)
 {
-	int 			c;
 	int				i;
-	int 			j;
-	int 			is_fence;
+	int				j;
 
 	i = 0;
-	c = 1;
 	while (i < MAP_Y)
 	{
 		j = 0;
 		while (j < MAP_X)
 		{
 			if (PRIOR[i][j] == ENEMY)
-				calc_priority(f, i, j, c);
+				calc_priority(f, i, j, 1);
 			j++;
 		}
 		i++;
 	}
-	while (!is_seted(f))
+}
+
+void				set_priorities(t_filler *f)
+{
+	int				c;
+	int				i;
+	int				j;
+	int				is_fence;
+
+	set_around_enemy(f);
+	c = 0;
+	while (!is_seted(f) && ++c)
 	{
-		i = 0;
+		i = -1;
 		is_fence = 1;
-		while (i < MAP_Y) {
-			j = 0;
-			while (j < MAP_X)
+		while (++i < MAP_Y)
+		{
+			j = -1;
+			while (++j < MAP_X)
 			{
 				if (PRIOR[i][j] == c)
-				{
 					is_fence = 0;
+				if (PRIOR[i][j] == c)
 					calc_priority(f, i, j, c + 1);
-				}
-				j++;
 			}
-			i++;
 		}
-		if(is_fence)
+		if (is_fence)
 			set_fanced_value(f);
-		c++;
 	}
 }

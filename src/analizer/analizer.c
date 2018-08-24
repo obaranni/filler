@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   analizer.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:23:54 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 15:40:13 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
 void				set_cord(t_cord *cord, int x, int y)
@@ -8,7 +20,7 @@ void				set_cord(t_cord *cord, int x, int y)
 
 void				create_pos_array(t_filler *f)
 {
-	int 			i;
+	int				i;
 
 	i = 0;
 	POSITOINS = (t_fig_pos**)malloc(sizeof(t_fig_pos*) * ((MAP_X * MAP_Y) - 1));
@@ -24,7 +36,7 @@ void				create_pos_array(t_filler *f)
 t_fig_pos			*get_a_better_score(t_fig_pos **array)
 {
 	t_fig_pos		*better;
-	int 			i;
+	int				i;
 
 	i = 0;
 	if (array[i]->setted)
@@ -33,14 +45,14 @@ t_fig_pos			*get_a_better_score(t_fig_pos **array)
 		return (NULL);
 	while (array[i]->setted)
 	{
-		if (better && better->score > array[i]->score)
+		if (better && better->score >= array[i]->score)
 			better = array[i];
 		i++;
 	}
 	return (better);
 }
 
-int                 analizer(t_filler *f)
+int					analizer(t_filler *f)
 {
 	t_fig_pos		*best_pos;
 
@@ -51,7 +63,7 @@ int                 analizer(t_filler *f)
 	best_pos = get_a_better_score(POSITOINS);
 	if (best_pos)
 		set_cord(&(f->game.step_cord), best_pos->pos.x -
-									   (f->game.figure.offset.x), best_pos->pos.y
-																  - (f->game.figure.offset.y));
+			(f->game.figure.offset.x), best_pos->pos.y
+			- (f->game.figure.offset.y));
 	return (1);
 }

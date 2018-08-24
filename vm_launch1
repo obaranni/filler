@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./resources/filler_vm -f resources/maps/map00 -p2 ./obaranni.filler -p1 ./resources/players/carli.filler

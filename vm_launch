@@ -1,3 +1,0 @@
-#!/bin/bash
-
-./resources/filler_vm -f resources/maps/map00 -p1 ./obaranni.filler -p2 ./resources/players/hcao.filler

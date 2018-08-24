@@ -76,6 +76,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/obaranni.filler.dir/src/parser/cut_figure.c.o"
   "CMakeFiles/obaranni.filler.dir/src/analizer/brute_force.c.o"
   "CMakeFiles/obaranni.filler.dir/src/journalist/logbook.c.o"
+  "CMakeFiles/obaranni.filler.dir/src/free.c.o"
   "obaranni.filler.pdb"
   "obaranni.filler"
 )

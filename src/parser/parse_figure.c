@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_figure.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:45:31 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 14:45:35 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
 void			parse_figure(t_filler *f, int i)
@@ -24,7 +36,7 @@ void			parse_figure(t_filler *f, int i)
 
 void			find_figure(t_filler *f, int *i)
 {
-	int 		j;
+	int			j;
 
 	j = 0;
 	while (f->input[*i])

@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   cut_figure.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: obaranni <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/24 14:43:45 by obaranni          #+#    #+#             */
+/*   Updated: 2018/08/24 14:43:47 by obaranni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/filler.h"
 
 void			extreme_points(t_filler *f)
 {
-	int 		i;
-	int 		j;
+	int			i;
+	int			j;
 
 	FIG.min_y = FIGF_Y;
 	FIG.min_x = FIGF_X;
@@ -31,8 +43,8 @@ void			extreme_points(t_filler *f)
 
 void			short_figure_creating(t_filler *f)
 {
-	int 		i;
-	int 		j;
+	int			i;
+	int			j;
 
 	FIGS_X = (FIG.max_x - FIG.min_x) + 1;
 	FIGS_Y = (FIG.max_y - FIG.min_y) + 1;
@@ -69,5 +81,4 @@ void			cut_figure(t_filler *f)
 	extreme_points(f);
 	set_offset(f);
 	short_figure_creating(f);
-//	printf("minx %d\nmaxx %d\nminy %d\nmaxy %d\n", FIG.min_x, FIG.max_x, FIG.min_y, FIG.max_y);  extreme points printing
 }
